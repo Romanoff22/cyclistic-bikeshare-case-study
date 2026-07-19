@@ -14,7 +14,7 @@ Casual riders and members use the service in almost opposite ways. Members ride 
 
 **[View the interactive dashboard on Tableau Public](https://public.tableau.com/views/cyclistic_17844834145490/CyclisticDashboard)**
 
-[Cyclistic dashboard preview](./Cyclistic Dashboard.png)
+![Cyclistic dashboard preview](./Cyclistic Dashboard.png)
 
 ## Languages and tools used
 
