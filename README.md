@@ -24,15 +24,15 @@ Casual riders and members use the service in almost opposite ways. Members ride 
 
 ## Key learning
 
-- Combined and cleaned 12 monthly CSV files (about 5.55 million raw rows) into a single dataset in pandas, handling duplicates, missing fields, and out-of-range dates
-- Wrote BigQuery SQL to extract ride counts, duration statistics, weekly and hourly patterns, seasonality, and duration-bucket breakdowns
-- Cross-validated key findings across Python, SQL, and Tableau to confirm consistency rather than trusting a single tool's output
+- Combined and cleaned 12 monthly CSV files (about 5.55 million raw rows) into a single dataset in pandas, handling duplicates, missing fields and out-of-range dates
+- Wrote BigQuery SQL to extract ride counts, duration statistics, weekly and hourly patterns, seasonality and duration-bucket breakdowns
+- Cross-validated key findings across Python, SQL and Tableau to confirm consistency rather than trusting a single tool's output
 - Distinguished a genuine, quantifiable pattern (the duration gap) from patterns that looked plausible but did not hold up under direct testing (bike type, geography)
 - Translated ride-level statistical patterns into business recommendations with honest tradeoffs, not one-sided pitches
 
 ## Challenges overcome
 
-- Deciding how to treat rides with zero, negative, or 24+ hour durations, resolved by aligning the cutoff with Divvy's own published policy on unreturned bikes
+- Deciding how to treat rides with zero, negative or 24+ hour durations, resolved by aligning the cutoff with Divvy's own published policy on unreturned bikes
 - Separating a real behavioral difference (ride duration and timing) from a pattern that looked meaningful on a map but did not hold once member ridership's higher overall volume was accounted for
 - Keeping the analysis honest by reporting non-findings (bike type, geography) explicitly rather than omitting patterns that did not support a clean story
 
@@ -46,7 +46,6 @@ Casual riders and members use the service in almost opposite ways. Members ride 
 ### Visualization
 
 - [Live dashboard on Tableau Public](https://public.tableau.com/views/cyclistic_17844834145490/CyclisticDashboard) - full interactive version, includes a click-to-filter action on the monthly chart
-- [Cyclistic_Dashboard.twbx](./Cyclistic_Dashboard.twbx) - packaged Tableau workbook with data included, for opening locally in Tableau Desktop or Tableau Public
 
 ### Report
 
