@@ -41,7 +41,12 @@ Casual riders and members use the service in almost opposite ways. Members ride 
 ### Analytics
 
 - [cyclistic_data_cleaning.ipynb](./cyclistic_data_cleaning.ipynb) - Python/pandas notebook that combines, cleans and prepares the 12 monthly raw files
+- [Runnable version on Kaggle](https://www.kaggle.com/code/agentromanoff/cyclistic-data-cleaning-and-preparation) - same cleaning pipeline, attached to the raw dataset and fully reproducible, no local setup required
 - [bikeshare_analysis_queries.sql](./bikeshare_analysis_queries.sql) - BigQuery queries for ride counts, duration stats, weekly/hourly patterns, seasonality, and duration-bucket breakdowns, annotated with the business question and finding behind each query
+
+### Data
+
+- [Divvy Bikeshare Trip Data 2025 on Kaggle](https://www.kaggle.com/datasets/agentromanoff/divvy-bikeshare-trip-data-2025/data) - raw 2025 monthly trip files, source data for this project
 
 ### Visualization
 
